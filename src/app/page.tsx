@@ -3,10 +3,10 @@
 import Image from "next/image";
 import React from "react";
 
-import { Parallax, ParallaxLayer, IParallax } from "@react-spring/parallax";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faA, faB, faC, faE, faEnvelope, faF, faJ, faL, faM, faN, faO, faP, faR, faS, faT, faV } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin, faDiscord, faHtml5, faCss3, faSquareJs, faPython, faJava, faReact, faGit, faNpm, faDocker, faNotion, faUbuntu, faFigma } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faHtml5, faCss3, faSquareJs, faPython, faJava, faReact, faGit, faNpm, faDocker, faNotion, faUbuntu, faFigma } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
   const [isShow, setIsShow] = React.useState(false);
@@ -437,7 +437,7 @@ export default function Home() {
               <button className="text-[0.6rem] text-white uppercase hover:text-[#ebd994] duration-200 cursor-pointer" onClick={() => setIsShow(true)}>Read</button>
             </div>
             <div style={{ display: isShow ? "block" : "none" }} className="absolute bg-[#ebd994] top-0 left-0 w-full h-full p-3">
-              <p className="h-[90%] text-[0.8rem] text-black leading-[1rem]">"I can develop custom web pages based on your requirements, with responsive design using Next.js, React, Vite, and more."</p>
+              <p className="h-[90%] text-[0.8rem] text-black leading-[1rem]">&quot;I can develop custom web pages based on your requirements, with responsive design using Next.js, React, Vite, and more.&quot;</p>
               <div className="w-full content-end text-end mt-2">
                 <button className="text-[0.6rem] text-black uppercase hover:text-white duration-200 cursor-pointer" onClick={() => setIsShow(false)}>Back</button>
               </div>
@@ -454,7 +454,7 @@ export default function Home() {
               <button className="text-[0.6rem] text-white uppercase hover:text-[#ebd994] duration-200 cursor-pointer" onClick={() => setIsShow(true)}>Read</button>
             </div>
             <div style={{ display: isShow ? "block" : "none" }} className="absolute bg-[#ebd994] top-0 left-0 w-full h-full p-3">
-              <p className="h-[90%] text-[0.8rem] text-black leading-[1rem]">"I build custom backend systems with a solid grasp of fundamental security, using FastAPI, Express.js, and more."</p>
+              <p className="h-[90%] text-[0.8rem] text-black leading-[1rem]">&quot;I build custom backend systems with a solid grasp of fundamental security, using FastAPI, Express.js, and more.&quot;</p>
               <div className="w-full content-end text-end mt-2">
                 <button className="text-[0.6rem] text-black uppercase hover:text-white duration-200 cursor-pointer" onClick={() => setIsShow(false)}>Back</button>
               </div>
@@ -471,7 +471,7 @@ export default function Home() {
               <button className="text-[0.6rem] text-white uppercase hover:text-[#ebd994] duration-200 cursor-pointer" onClick={() => setIsShow(true)}>Read</button>
             </div>
             <div style={{ display: isShow ? "block" : "none" }} className="absolute bg-[#ebd994] top-0 left-0 w-full h-full p-3">
-              <p className="h-[90%] text-[0.8rem] text-black leading-[1rem]">"I can design database structures and relationships, working with both SQL and NoSQL databases such as MongoDB, PostgreSQL, MySQL, and more."</p>
+              <p className="h-[90%] text-[0.8rem] text-black leading-[1rem]">&quot;I can design database structures and relationships, working with both SQL and NoSQL databases such as MongoDB, PostgreSQL, MySQL, and more.&quot;</p>
               <div className="w-full content-end text-end mt-2">
                 <button className="text-[0.6rem] text-black uppercase hover:text-white duration-200 cursor-pointer" onClick={() => setIsShow(false)}>Back</button>
               </div>
@@ -488,7 +488,7 @@ export default function Home() {
               <button className="text-[0.6rem] text-white uppercase hover:text-[#ebd994] duration-200 cursor-pointer" onClick={() => setIsShow(true)}>Read</button>
             </div>
             <div style={{ display: isShow ? "block" : "none" }} className="absolute bg-[#ebd994] top-0 left-0 w-full h-full p-3">
-              <p className="h-[90%] text-[0.8rem] text-black leading-[1rem]">"I can deploy production-ready applications to hosting platforms such as Vercel, Render, and more."</p>
+              <p className="h-[90%] text-[0.8rem] text-black leading-[1rem]">&quot;I can deploy production-ready applications to hosting platforms such as Vercel, Render, and more.&quot;</p>
               <div className="w-full content-end text-end mt-2">
                 <button className="text-[0.6rem] text-black uppercase hover:text-white duration-200 cursor-pointer" onClick={() => setIsShow(false)}>Back</button>
               </div>
@@ -519,7 +519,7 @@ export default function Home() {
         <div className="w-[50%] flex items-center">
           <div className="w-[90%] h-[50%] overflow-auto">
             <h1 className="text-[1.4rem] text-[#ebd994] mb-2">Anupong Pakee</h1>
-            <p className="text-[0.8rem] text-white leading-[1rem]">I graduated with a Bachelor's degree in Computer Engineering. I have a strong passion for programming — I truly enjoy it and sometimes get so immersed that I lose track of time. Although I don't have any formal work experience with a company, I have completed numerous simulated or personal projects. I am also adaptable, open to new challenges, and eager to learn new technologies. Below are my qualifications, which I hope meet your requirements. I look forward to the opportunity to work with you.</p>
+            <p className="text-[0.8rem] text-white leading-[1rem]">I graduated with a Bachelor&apos;s degree in Computer Engineering. I have a strong passion for programming — I truly enjoy it and sometimes get so immersed that I lose track of time. Although I don&apos;t have any formal work experience with a company, I have completed numerous simulated or personal projects. I am also adaptable, open to new challenges, and eager to learn new technologies. Below are my qualifications, which I hope meet your requirements. I look forward to the opportunity to work with you.</p>
           </div>
         </div>
       </ParallaxLayer>
@@ -527,7 +527,7 @@ export default function Home() {
         <div className="flex justify-around items-stretch w-full h-fit text-white">
           <div className="border-2 border-[#ebd994] p-2">
             <p className="text-[0.6rem]">Education</p>
-            <h1 className="text-[1.1rem] text-[#ebd994] text-center mt-2 mb-1">Bachelor's Degree</h1>
+            <h1 className="text-[1.1rem] text-[#ebd994] text-center mt-2 mb-1">Bachelor&apos;s Degree</h1>
             <p className="text-[0.6rem] text-center">Computer Engineering</p>
           </div>
           <div className="border-2 border-[#ebd994] p-2">
@@ -652,7 +652,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <th className="text-[#ebd994] border-1 border-solid border-white p-2 text-left content-start">Description:</th>
-                  <td className="border-1 border-solid border-white p-2">A preliminary mental health consultation website built for educational purposes and to explore new technologies such as LangChain and LangGraph. The core feature is a chatbot + agent system powered by OpenAI's GPT-4o model. It incorporates the concept of Retrieval-Augmented Generation (RAG) to enhance the accuracy of responses by retrieving relevant information from a vector database (Chroma). The system also applies Chain-of-Thought (CoT) reasoning to allow the chatbot to ask, analyze, and respond step-by-step using a custom Prompt Engine. Additionally, chat history is stored to help the chatbot maintain context throughout the conversation.</td>
+                  <td className="border-1 border-solid border-white p-2">A preliminary mental health consultation website built for educational purposes and to explore new technologies such as LangChain and LangGraph. The core feature is a chatbot + agent system powered by OpenAI&apos;s GPT-4o model. It incorporates the concept of Retrieval-Augmented Generation (RAG) to enhance the accuracy of responses by retrieving relevant information from a vector database (Chroma). The system also applies Chain-of-Thought (CoT) reasoning to allow the chatbot to ask, analyze, and respond step-by-step using a custom Prompt Engine. Additionally, chat history is stored to help the chatbot maintain context throughout the conversation.</td>
                 </tr>
                 <tr>
                   <th className="text-[#ebd994] border-1 border-solid border-white p-2 text-left content-start">Tech Stack:</th>

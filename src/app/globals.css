@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+:root {
+  font-size: 14px;
+  font-family: monospace;
+}
+
+.animate-slide {
+  animation: slide 10s linear infinite;
+}
+
+.animate-slide-2 {
+  animation: slide2 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-400%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slide2 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-450%);
+  }
+}
+
+.animate-fideIn {
+  animation: fideIn 2s ease-in-out;
+}
+
+@keyframes fideIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 320px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+/* Iphone Devices */
+@media (min-width: 390px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+/* Tablet or IPad Devices */
+@media (min-width: 768px) {
+  :root {
+    font-size: 20px;
+  }
+
+  .animate-slide {
+    animation: slide 14s linear infinite;
+  }
+
+  .animate-slide-2 {
+    animation: slide2 14s linear infinite;
+  }
+}
+
+/* Laptop Devices */
+@media (min-width: 1280px) {
+  :root {
+    font-size: 22px;
+  }
+
+  .animate-slide {
+    animation: slide 16s linear infinite;
+  }
+
+  .animate-slide-2 {
+    animation: slide2 16s linear infinite;
+  }
+}
+
+@media (min-width: 1366px) {
+  :root {
+    font-size: 24px;
+  }
+}
+
+/* Desktop Devices */
+@media (min-width: 1920px) {
+  :root {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    font-size: 38px;
+  }
+}

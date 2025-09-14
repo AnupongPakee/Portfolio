@@ -5,7 +5,7 @@ import React from "react";
 
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faA, faB, faC, faE, faEnvelope, faF, faJ, faL, faM, faN, faO, faP, faR, faS, faT, faV } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faFontAwesome } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faHtml5, faCss3, faSquareJs, faPython, faJava, faReact, faGit, faNpm, faDocker, faNotion, faUbuntu, faFigma } from "@fortawesome/free-brands-svg-icons";
 
 export default function Home() {
@@ -31,10 +31,10 @@ export default function Home() {
       setIsSkills({
         hpl: false,
         hfw: true,
-        htl: true,
-        htt: true,
-        hdb: true,
-        hss: true,
+        htl: false,
+        htt: false,
+        hdb: false,
+        hss: false,
         pl: true,
         fw: false,
         tl: false,
@@ -47,9 +47,9 @@ export default function Home() {
         hpl: false,
         hfw: false,
         htl: true,
-        htt: true,
-        hdb: true,
-        hss: true,
+        htt: false,
+        hdb: false,
+        hss: false,
         pl: false,
         fw: true,
         tl: false,
@@ -63,8 +63,8 @@ export default function Home() {
         hfw: false,
         htl: false,
         htt: true,
-        hdb: true,
-        hss: true,
+        hdb: false,
+        hss: false,
         pl: false,
         fw: false,
         tl: true,
@@ -74,12 +74,12 @@ export default function Home() {
       })
     } if (check === "tt") {
       setIsSkills({
-        hpl: true,
-        hfw: true,
+        hpl: false,
+        hfw: false,
         htl: false,
         htt: false,
         hdb: true,
-        hss: true,
+        hss: false,
         pl: false,
         fw: false,
         tl: false,
@@ -90,8 +90,8 @@ export default function Home() {
     } if (check === "db") {
       setIsSkills({
         hpl: false,
-        hfw: true,
-        htl: true,
+        hfw: false,
+        htl: false,
         htt: false,
         hdb: false,
         hss: true,
@@ -130,17 +130,17 @@ export default function Home() {
   ]
   const database = [
     {
-      icon: faM,
+      icon: faFontAwesome,
       name: "MongoDB",
       level: "⭐⭐⭐"
     },
     {
-      icon: faP,
+      icon: faFontAwesome,
       name: "PostgreSQL",
       level: "⭐⭐⭐"
     },
     {
-      icon: faM,
+      icon: faFontAwesome,
       name: "MySQL",
       level: "⭐⭐⭐"
     },
@@ -166,7 +166,7 @@ export default function Home() {
       level: "⭐⭐⭐"
     },
     {
-      icon: faT,
+      icon: faFontAwesome,
       name: "TypeScript",
       level: "⭐⭐⭐"
     },
@@ -181,14 +181,14 @@ export default function Home() {
       level: "⭐⭐"
     },
     {
-      icon: faC,
+      icon: faFontAwesome,
       name: "C/C++",
       level: "⭐⭐"
     }
   ]
   const frameworks = [
     {
-      icon: faN,
+      icon: faFontAwesome,
       name: "Next.js",
       level: "⭐⭐⭐⭐"
     },
@@ -198,49 +198,49 @@ export default function Home() {
       level: "⭐⭐⭐⭐"
     },
     {
-      icon: faV,
+      icon: faFontAwesome,
       name: "Vite.js",
       level: "⭐⭐⭐⭐"
     },
     {
-      icon: faL,
+      icon: faFontAwesome,
       name: "LangChain",
       level: "⭐⭐⭐"
     },
     {
-      icon: faE,
+      icon: faFontAwesome,
       name: "Express.js",
       level: "⭐⭐⭐"
     },
     {
-      icon: faF,
+      icon: faFontAwesome,
       name: "FastAPI",
       level: "⭐⭐⭐"
     },
     {
-      icon: faT,
+      icon: faFontAwesome,
       name: "Tailwind CSS",
       level: "⭐⭐⭐"
     },
     {
-      icon: faB,
+      icon: faFontAwesome,
       name: "Bootstrap CSS",
       level: "⭐⭐"
     },
     {
-      icon: faL,
+      icon: faFontAwesome,
       name: "LangGraph",
       level: "⭐⭐"
     }
   ]
   const tools = [
     {
-      icon: faV,
+      icon: faFontAwesome,
       name: "Visual Studio Code",
       level: "⭐⭐⭐"
     },
     {
-      icon: faV,
+      icon: faFontAwesome,
       name: "Visual Studio Community",
       level: "⭐⭐⭐"
     },
@@ -250,12 +250,12 @@ export default function Home() {
       level: "⭐⭐⭐"
     },
     {
-      icon: faP,
+      icon: faFontAwesome,
       name: "pip",
       level: "⭐⭐⭐"
     },
     {
-      icon: faC,
+      icon: faFontAwesome,
       name: "Conda",
       level: "⭐⭐⭐"
     },
@@ -270,17 +270,17 @@ export default function Home() {
       level: "⭐⭐⭐"
     },
     {
-      icon: faC,
+      icon: faFontAwesome,
       name: "Canva",
       level: "⭐⭐⭐"
     },
     {
-      icon: faO,
+      icon: faFontAwesome,
       name: "Obsidian",
       level: "⭐⭐⭐"
     },
     {
-      icon: faJ,
+      icon: faFontAwesome,
       name: "Jupyter Notebook / JupyterLab",
       level: "⭐⭐⭐"
     },
@@ -295,12 +295,12 @@ export default function Home() {
       level: "⭐⭐⭐"
     },
     {
-      icon: faV,
+      icon: faFontAwesome,
       name: "Vercel Cloud",
       level: "⭐⭐"
     },
     {
-      icon: faR,
+      icon: faFontAwesome,
       name: "Render Cloud",
       level: "⭐⭐"
     },
@@ -317,64 +317,64 @@ export default function Home() {
   ]
   const testingtools = [
     {
-      icon: faP,
+      icon: faFontAwesome,
       name: "Postman",
       level: "⭐⭐⭐"
     },
     {
-      icon: faP,
+      icon: faFontAwesome,
       name: "PyTest",
       level: "⭐⭐"
     },
     {
-      icon: faS,
+      icon: faFontAwesome,
       name: "Selenium",
       level: "⭐⭐"
     }
   ]
   const softskills = [
     {
-      icon: faC,
+      icon: faFontAwesome,
       name: "Communication",
       level: "⭐⭐⭐"
     },
     {
-      icon: faC,
+      icon: faFontAwesome,
       name: "Continuous Learning",
       level: "⭐⭐⭐"
     },
     {
-      icon: faT,
+      icon: faFontAwesome,
       name: "Teamwork",
       level: "⭐⭐⭐"
     },
     {
-      icon: faS,
+      icon: faFontAwesome,
       name: "Problem Solving",
       level: "⭐⭐⭐"
     },
     {
-      icon: faA,
+      icon: faFontAwesome,
       name: "Adaptability",
       level: "⭐⭐⭐"
     },
     {
-      icon: faC,
+      icon: faFontAwesome,
       name: "Creativity",
       level: "⭐⭐⭐"
     },
     {
-      icon: faT,
+      icon: faFontAwesome,
       name: "Time Management",
-      level: "⭐⭐"
+      level: "⭐⭐⭐"
     },
     {
-      icon: faA,
+      icon: faFontAwesome,
       name: "Analytical Thinking",
       level: "⭐⭐"
     },
     {
-      icon: faS,
+      icon: faFontAwesome,
       name: "Stress Management",
       level: "⭐⭐"
     }
@@ -422,7 +422,7 @@ export default function Home() {
 
       <ParallaxLayer offset={1} className="relative z-10" style={{ backgroundImage: `url('/images/bg_1.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
       <ParallaxLayer offset={1} speed={1} className="relative z-11">
-        <h1 className="text-[1.6rem] text-center tracking-[0.1rem] text-[#ebd994] mt-2">What I Can Do</h1>
+        <h1 className="text-[1.6rem] text-center tracking-[0.1rem] text-[#ebd994]">What I Can Do</h1>
       </ParallaxLayer>
       <ParallaxLayer offset={1} speed={0.8} className="relative z-11 flex justify-center items-center">
         <div className="ourservices w-[95%] h-[80%] grid grid-cols-2 grid-rows-[50%_50%] gap-4">
@@ -499,7 +499,7 @@ export default function Home() {
 
       <ParallaxLayer offset={2} className="relative z-20" style={{ backgroundImage: `url('/images/bg_1.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }} />
       <ParallaxLayer offset={2} speed={1} className="relative z-21">
-        <h1 className="text-[1.6rem] text-center tracking-[0.1rem] text-[#ebd994] mt-4">About Me</h1>
+        <h1 className="text-[1.6rem] text-center tracking-[0.1rem] text-[#ebd994]">About Me</h1>
       </ParallaxLayer>
       <ParallaxLayer offset={2} speed={1} className="relative z-21 flex w-full">
         <div className="flex justify-center items-center w-[50%] h-full">
@@ -539,7 +539,7 @@ export default function Home() {
 
       <ParallaxLayer offset={3} className="relative z-30" style={{ backgroundImage: `url('/images/bg_2.png')`, backgroundSize: 'cover', backgroundPosition: "center" }} />
       <ParallaxLayer offset={3} speed={1} className="relative z-31">
-        <h1 className="text-[1.6rem] text-center tracking-[0.1rem] text-[#ebd994] mt-1">Skills</h1>
+        <h1 className="text-[1.6rem] text-center tracking-[0.1rem] text-[#ebd994]">Skills</h1>
       </ParallaxLayer>
       <ParallaxLayer offset={3} className="relative z-31" style={{ backgroundImage: `url('images/a2.png')`, backgroundSize: "cover", backgroundPosition: "center" }} />
       <ParallaxLayer offset={3} className="relative z-31" style={{ backgroundImage: `url('images/a22.png')`, backgroundSize: "cover", backgroundPosition: "center" }} />
